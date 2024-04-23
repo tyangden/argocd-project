@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: tshering-deploy
     spec:
       containers:
       - image: tyangden/cat:latest
