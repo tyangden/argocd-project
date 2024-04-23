@@ -15,5 +15,5 @@ spec:
         app: tshering-deploy
     spec:
       containers:
-      - image: tyangden/cat:latest
+      - image: tyangden/cat:14
         name: pet
