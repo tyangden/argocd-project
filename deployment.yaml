@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: tshering-deploy
   name: tshering-deploy
 spec:
   replicas: 2
