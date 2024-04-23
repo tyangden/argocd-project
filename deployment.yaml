@@ -15,5 +15,5 @@ spec:
         app: pet-deploy
     spec:
       containers:
-      - image: tyangden/agrocd:latest
+      - image: tyangden/cat:latest
         name: pet
