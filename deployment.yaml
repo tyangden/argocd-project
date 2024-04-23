@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: tshering-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: tshering-deploy
   template:
     metadata:
       labels:
         app: pet-deploy
     spec:
       containers:
-      - image: cloudsihmar/newpet:13
+      - image: tyangden/agrocd:latest
         name: pet
